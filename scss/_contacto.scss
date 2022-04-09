@@ -1,0 +1,40 @@
+/* CONTACTO */
+
+.fondo {
+  background-color: black;
+  background-image: url("../assets/Multimedia/fondo\ contacto3\ \(1\).png");
+  background-repeat: repeat;
+  form {
+    border: 2px white solid;
+    padding: 3%;
+    font-family: "Caveat", cursive;
+    font-size: 23px;
+    margin-bottom: 10%;
+    label {
+      padding-top: 3%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .contacto {
+      h1 {
+        font-size: 40px;
+      }
+      form {
+        margin: 5px;
+        .botones {
+          margin: 20px auto;
+          .borrar,
+          .enviar {
+            padding: 5px 30px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .borrar,
+    .enviar {
+      padding: 5px 50px;
+    }
+  }
+}

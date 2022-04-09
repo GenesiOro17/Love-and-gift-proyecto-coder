@@ -1,0 +1,97 @@
+/*****************MEDIA QUERRIES MOBILE**************************/
+@media screen and (max-width: 550px) {
+  /* FUENTES */
+  h1 {
+    font-size: 55px;
+  }
+  p {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+  }
+  h2 {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  /* NAVEGACION */
+  header {
+    width: 100%;
+  }
+
+  nav {
+    .nav1 {
+      padding-left: 20px;
+    }
+    .nav2 {
+      font-size: 17.5px;
+      justify-content: center;
+    }
+    a {
+      margin: 3px;
+    }
+  }
+
+  /* ENCABEZADO */
+
+  .nombre {
+    height: 50%;
+  }
+  main {
+    .titulo {
+      width: 100%;
+      height: 80%;
+    }
+  }
+
+  /* QUIENES SOMOS */
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+  .sec2 {
+    background-color: $rosa;
+  }
+  .nosotros {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  .imagenes2 {
+    width: 100%;
+    height: 8%;
+  }
+
+  /* NUESTROS TRABAJOS */
+  .sec3 {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .trabajos img {
+    width: 90%;
+    height: 80%;
+    margin: 10px;
+    opacity: 2;
+    border-radius: 20px;
+    &:hover {
+      transform: none;
+    }
+  }
+  .dos {
+    display: none;
+  }
+
+  /* FOOTER */
+  footer h3 {
+    font-size: 2rem;
+  }
+
+  
+} /*****************FINAL MEDIA QUERRIES MOBILE**********************/
