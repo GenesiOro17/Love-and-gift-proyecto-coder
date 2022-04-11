@@ -763,21 +763,17 @@ h2 {
 /*****************FINAL MEDIA QUERRIES MOBILE**********************/
 .body-error {
   background-color: #f8dede;
-  background-image: url(./assets/Multimedia/GP6L-unscreen.gif);
 }
 
 .body-error .error404 {
-  margin: 10% auto;
-  background-color: #1e1e1e;
+  margin: 20px auto;
   width: 50%;
   height: 35%;
   padding: 2%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
-  border: 2px solid gray;
-  border-radius: 7px;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -788,7 +784,7 @@ h2 {
 }
 
 .body-error .error404 h1 {
-  color: white;
+  color: black;
 }
 
 .body-error .error404 p {
